@@ -18,7 +18,7 @@ body{
     background-color: black;
     padding: 40px;
     display: flex; /*para deixar cx1 e cx2 do lado*/
-    justify-content: space-between;
+    
 }
 
 .cx{
@@ -31,8 +31,8 @@ body{
 
 .cx1{
    width: 348px; 
-   
-       }
+   margin-right: 60px; /*reduziu o espaço do cx1 em meia tela*/
+    }
 
 .cx11{
     }
@@ -40,20 +40,29 @@ body{
     }
 .cx13{
     }
-.cx14{
+.cx14{ text-align: left;
     }
 .cx15{
     }
 
+.cx131, .cx132, .cx133 {
+    display: flex;
+    justify-content: space-between;
+}
+.cxrosa {
+    border-radius: 30px;
+    color: #000000;
+    background-color: #CB92B1;
+}
 .cx2{
-    width: 952px;
-    
-    
+    width: 952px;       
 }
 
 .cx22{
     display: flex;
+    justify-content: space-between;
 }
+
 .cx{
     border-radius: 20px;
 }
