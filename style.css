@@ -1,0 +1,63 @@
+/*margin é o espaço fora da caixa*/
+/*usei margin 0 no inicio, p. zerar o Vo do chorme*/
+/*padding é o espaço dentro*/
+/*content-box: padrão. calculo do tamanho pelo conteudo*/
+/* border-box: calculo do tamanho pela borda*/
+/*display: block: forma de caixa*/
+/*display: inline: forma de linha*/
+/*border dashed solid dotted double...*/
+
+* {margin: 0px;
+}
+* {box-sizing: border-box;
+}
+
+body{
+    height: 100 vh;
+    margin: 0px;
+    background-color: black;
+    padding: 40px;
+    display: flex; /*para deixar cx1 e cx2 do lado*/
+    justify-content: space-between;
+}
+
+.cx{
+    color:#837E9F;
+    background-color: #302F3D;
+    padding: 10px;
+    margin-bottom: 20px; /*para separar os cx*/
+
+    }
+
+.cx1{
+   width: 348px; 
+   
+       }
+
+.cx11{
+    }
+.cx12{
+    }
+.cx13{
+    }
+.cx14{
+    }
+.cx15{
+    }
+
+.cx2{
+    width: 952px;
+    
+    
+}
+
+.cx22{
+    display: flex;
+}
+.cx{
+    border-radius: 20px;
+}
+    
+    /*
+    display: flex;*/
+    
