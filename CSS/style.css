@@ -11,9 +11,10 @@
 }
 * {box-sizing: border-box;
 }
+* {font-family: 'Merriweather Sans', sans-serif;}
 
 body{
-    height: 100 vh;
+    height: 100vh;
     margin: 0px;
     background-color: black;
     padding: 40px;
@@ -32,39 +33,65 @@ body{
     /*para separar os cx*/
 }
 
+
 .cx1{
    width: 348px; 
    margin-right: 60px; /*reduziu o espaço do cx1 em meia tela*/
     }
 
 .cx11{padding: 32px;
-    }
+    align-items: center;
+    justify-content: center;
+    
+}
 .cx111{
     width: 128px;
     height: 128px;
-    border-radius: 64px;
+    border-radius: 50%;
     border: solid greenyellow 2px;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    overflow: hidden;
     }
-
-.cx111i{
-    max-width: 128px;
-    max-height: 128px;
-    border-radius: 64px;
+.cx111f{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.nome{
+    margin: 32px 0 10px 0;
+    font-size: larger;
 }
 
-.cx112{font-weight: 600; /*não esta obedecendo meu tamanho de fonte*/
-    }
-.cx113{font-weight: 300;
+.cx111i{
+   max-width: 128px;
+   /* max-height: 128px;*/
+}
+
+.cx112{text-align: center;
+    
+        }
+.cx113{text-align: center;
+    
+    font-size: smaller;
 }
 
 
 .cx12{
     padding: 34px 40px;
     }
-.ico { /*não to conseguindo editar esses tamanhos */
-    max-width: 48px;
+
+.cxln{
+    display: flex;
+    justify-content: left;    
+    text-align: center;
+    align-items: center;
+}
+.ico { 
+    max-width: 24px;
     max-height: 24px;
+    margin-right: 20px;
 }
 
 .cx13{padding: 30px;
@@ -73,23 +100,39 @@ body{
     }
 .cx15{padding: 30px 40px;
     }
-
-.cx131, .cx132, .cx133 {
+.cx131{
+    font-size: larger;
+    margin-bottom: 20px;
+}
+.cx134, .cx132, .cx133 {
     display: flex;
     justify-content: space-between;
+    
 }
 .cxrosa {
     border-radius: 30px;
     color: #000000;
     background-color: #CB92B1;
-    padding: 6px;
+    padding: 6px 0 6px 0;
     margin: 7.5px;
     width: 86px;
     height: 24px;
-    justify-content: center;   
+}
+.cx132tx{
+    text-align: center;
+    font-size: smaller;
+    justify-content: center;
+    display: flex;
+}
+.cx14{
+    padding: 30px;
+}
+.cx142{
+    margin-left: 10px;
+    text-justify: auto;
 }
 .cx2{
-    width: 952px;       
+    max-width: 952px;       
 }
 .cx21{
     display: flex;
@@ -99,19 +142,37 @@ body{
 }
 .cx221{
     margin-right: 20px;
+    
 }
 .cx2211{
     display: flex;
+}
+.cx2212{
+    margin: 20px 0 20px 0;
+}
+.cx22112{
+    margin-left: 20px;
 }
 .cx2213{
     display:flex;
     justify-content: space-between;
 }
-
+.cx22131{
+    margin-right: 8px;
+}
+.cx22132{
+    margin-right: 16px;
+}
+.cx22133{
+    margin-right: 8px;
+}
+.cx22135{
+    margin-right: 8px;
+}
 .cx22{
     display: flex;
     justify-content: space-between;
-}
+    }
 
 .cx23{
     padding: 30px;
@@ -119,11 +180,20 @@ body{
 .cx24{
     display: flex;
     padding: 30px;
-    justify-content: space-between;
+}
+.cx242{
+    margin-left: 20px;
+}
+.cx2422{
+    margin-bottom: 28px;
 }
 .cx2424{
     display: flex;
     justify-content: space-between;
+}
+.cx2424n{
+    align-items: center;
+    margin-right: 10px;
 }
 
 .cx{
